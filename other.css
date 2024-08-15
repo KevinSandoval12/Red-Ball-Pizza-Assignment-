@@ -1,0 +1,127 @@
+/*
+    Defines all remaining styles for the Red Ball Pizza web page.
+
+    Author: Kevin Sandoval
+    Date: 8-12-24
+    File: other.css
+ */
+
+/* Aside Color Fade */
+aside li {
+  background: linear-gradient(90deg, rgb(165, 164, 164), rgb(250, 151, 168));
+  border: #9d0606 solid 1px;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+}
+
+/* Box Shadow */
+aside li {
+  border: rgb(206, 62, 62) solid 5px;
+  border-radius: 10px;
+  box-shadow: 5px 10px #00000030;
+}
+
+body {
+  background-image: url("parlor.jpg");
+  background-color: #cccccc;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+}
+
+/* Background Image 
+
+body {
+  background-image: url("parlor.jpg");
+  background-color: #cccccc;
+}
+
+Background Image Positioning 
+
+aside .vertical {
+  background-image: url("parlor.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+Repeat Background
+
+aside .vertical {
+  background-image: url("parlor.jpg");
+  background-repeat: repeat-y;
+}
+
+Background Resize
+
+.vertical {
+  background: url(parlor.jpg);
+  background-repeat: no-repeat;
+  background-size: auto;
+} */
+
+#deals {
+  background-color: white;
+}
+
+header img {
+  width: 100%;
+}
+
+#deals div:nth-child(even) {
+  background-color: rgb(227, 99, 99);
+}
+
+.horizontal {
+  padding-left: 10px;
+  /* justify-content: space-between; */
+  align-items: center;
+}
+
+.horizontal li {
+  padding-right: 25px;
+}
+
+.vertical {
+  padding-top: 40px;
+  padding-left: 20px;
+}
+
+.vertical li {
+  padding-left: 5px;
+  margin-bottom: 7px;
+  background: linear-gradient(
+    -90deg,
+    rgba(255, 255, 255, 0),
+    rgba(215, 28, 59, 1)
+  );
+  border-radius: 5px;
+}
+
+.vertical li a {
+  color: white;
+}
+
+main {
+  background-color: white;
+  border-left: rgb(215, 28, 59) solid 5px;
+  border-right: rgb(215, 28, 59) solid 5px;
+}
+
+#deals div {
+  border: red dashed 5px;
+  margin: 10px;
+}
+
+#deals div :nth-child(3) {
+  font-weight: bold;
+}
+article {
+  padding-top: 5px;
+  margin: 5px;
+}
+
+aside h1 {
+  font-weight: bold;
+}
